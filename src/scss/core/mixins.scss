@@ -1,0 +1,12 @@
+@use "sass:math";
+
+$base-font-size: 16;
+@function em($pixels, $context: $base-font-size) {
+  @return #{math.div($pixels, $context)}em;
+}
+
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
