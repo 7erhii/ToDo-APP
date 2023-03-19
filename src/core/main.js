@@ -137,7 +137,6 @@ function addNewTask(e) {
 					Edit
 				</button>
 					<input class="task__active-check-check js-task__active-check" type="checkbox"  />
-					<label class="task__active-check-label" for="task-active-check"></label>
 				</div>
 			</div>
 		`;
