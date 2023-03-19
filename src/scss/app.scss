@@ -7,4 +7,6 @@ $selectionColor: #23a6d5;
 @import 'core/base';
 
 // Parts
-// @import 'parts/header';
+// @import 'parts/main';
+@import 'parts/base';
+@import 'core/mobile';

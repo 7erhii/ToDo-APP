@@ -1,0 +1,52 @@
+@media (max-width: 815px) {
+	body {
+		position: relative;
+		// background-color: red;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 540px) {
+	body {
+		position: relative;
+		// background-color: red;
+		padding: 10px;
+	}
+
+	.header {
+		&__title {
+			align-items: center;
+		}
+	}
+
+	.task__active {
+		display: flex;
+		flex-direction: column;
+
+		margin-bottom: 25px;
+
+		&-counter {
+			top: -10px;
+		}
+
+		&-timer {
+			top: -10px;
+		}
+
+		&-check {
+			position: absolute;
+			display: flex;
+
+			bottom: -15px;
+			left: 15px;
+			gap: 30px;
+
+			&-btn {
+				height: 20px;
+			}
+		}
+		&-edite-btn {
+			height: 20px;
+		}
+	}
+}
